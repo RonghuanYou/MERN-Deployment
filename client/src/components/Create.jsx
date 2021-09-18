@@ -48,7 +48,7 @@ const Create = () => {
             } else{
                 create()
             }
-        }else{
+        } else{
             create()
         }
     }
@@ -65,7 +65,7 @@ const Create = () => {
             hook_hand
         })
             .then(res => {
-                // create author successfully, redirect to main page
+                // create pirate successfully, redirect to main page
                 console.log(res);
                 history.push('/pirates')
             })
